@@ -719,3 +719,96 @@ section#application .container .right a:hover{
     width: 165px;
   }
 }
+
+/* DOCTORS */
+
+section#doctors {
+  background-color: #f9f9fb;
+  padding: 50px 0;
+}
+
+section#doctors .container{
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+section#doctors .container{
+  text-align: center;
+}
+
+section#doctors .container .title h3{
+  font-size: 2.25em;
+  color: #2a2a2a;
+}
+
+section#doctors .container .title h6{
+  font-size: 1.8em;
+  color: #1fb3bf;
+}
+
+section#doctors .container .person-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+section#doctors .container .person-row .person-bloc{
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: 0.2s ease-in-out;
+  margin: 20px;
+}
+
+section#doctors .container .person-row .person-bloc:nth-child(1){
+    background: linear-gradient(325deg,#0a99d1, #2ec5b2);
+}
+
+section#doctors .container .person-row .person-bloc:nth-child(2){
+    background: linear-gradient(0deg,#0a99d1, #2ec5b2);
+}
+
+section#doctors .container .person-row .person-bloc:nth-child(3){
+    background: linear-gradient(45deg,#0a99d1, #2ec5b2);
+}
+
+section#doctors .container .person-row .person-bloc img{
+  height: 80%;
+}
+
+section#doctors .container .person-row .person-bloc .person-description{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 1.5em;
+  padding: 0.3em 0.5em;
+  width: 170px;
+  background-color: #f9f9fb;
+  color: #333;
+  transition: 0.2s ease-in-out;
+}
+
+section#doctors .container .person-row .person-bloc:hover{
+  transform: scale(1.05);
+  border-radius: 5px;
+}
+
+section#doctors .container .person-row .person-bloc:hover .person-description{
+  left: 100%;
+  transform: translateX(-100%);
+}
+
+section#doctors .container .person-row .person-bloc:hover .person-description{
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 500px){
+  section#doctors .container .person-row .person-bloc{
+    width: 100%;
+  }
+}
