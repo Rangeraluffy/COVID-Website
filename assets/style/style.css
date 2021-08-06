@@ -879,3 +879,234 @@ section#news .container .article-blog .description a{
   color: #333;
   font-weight: 500;
 }
+
+/* CONTACT */
+
+section#contact {
+  background-color: #f9f9fb;
+  padding: 100px 15px;
+}
+
+section#contact .container{
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 60px 10px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 50px -10px #8c8c8c;
+}
+section#contact .container .title{
+  text-align: center;
+  color: #2a2a2a;
+  margin-bottom: 50px;
+}
+
+section#contact .container .title h3{
+  font-size: 1.2em;
+}
+
+section#contact .container .title h6{
+  font-size: 3em;
+}
+
+section#contact .container form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 600px;
+}
+
+section#contact .container form input{
+  width: 45%;
+}
+
+section#contact .container form input:hover,
+section#contact .container form textarea:hover{
+  border-bottom: 2px solid #1fb3bf;
+}
+
+section#contact .container form input,
+section#contact .container form textarea{
+  margin: 10px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #e4e4ec;
+}
+
+section#contact .container form textarea{
+  width: 100%;
+  resize: none;
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+section#contact .container form button{
+  width: 192px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color: #1fb3bf;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  margin: 0 auto;
+  transition: 0.2s;
+}
+
+section#contact .container form button:hover{
+  transform: translateY(-5px);
+    box-shadow: 0px 10px 50px -10px #8c8c8c;
+}
+
+@media screen and (max-width: 500px){
+  section#contact .container form,
+  section#contact .container form textarea
+  {
+    flex-direction: column;
+    width: 95%;
+    align-items: center;
+  }
+
+  section#contact .container form inut{
+    width: 100%;
+  }
+
+  section#contact .container .title h3{
+    font-size: 1em;
+  }
+
+  section#contact .container .title h6{
+    font-size: 2em;
+  }
+}
+
+section#facts {
+  background: #f9f9fb;
+  padding: 0px 10px 115px 10px;
+}
+
+section#facts .container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section#facts .container h3{
+  text-align: center;
+  font-size: 3em;
+  color: #2a2a2a;
+}
+
+section#facts .container .avis{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+section#facts .container .avis .bloc{
+  margin: 0 20px;
+  box-sizing: border-box;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+
+section#facts .container .avis .bloc:hover{
+  transform: translateY(-10px);
+  cursor: pointer;
+  background: #2a2a2a;
+}
+
+section#facts .container .avis .bloc:hover h3,
+section#facts .container .avis .bloc:hover p{
+  color: white;
+}
+
+section#facts .container:nth-child(2){
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 15px 35px -10px #e6e6e6;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  top: 0px;
+  transition: 0.2s;
+}
+
+section#facts .container:nth-child(2):hover{
+  background-color: #2a2a2a;
+  cursor: pointer;
+  position: relative;
+  top: -10px;
+}
+
+section#facts .container:nth-child(2) > p{
+  font-size: 1.1em;
+  text-align: center;
+  font-style: oblique;
+  font-weight: 500;
+  color: #212121;
+  transition: 0.2s;
+}
+
+section#facts .container:nth-child(2) p{
+  transition: 0.2s;
+}
+
+section#facts .container:nth-child(2) .person{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+section#facts .container:nth-child(2) .person img{
+  border-radius: 10px;
+}
+
+section#facts .container:nth-child(2) .person div:nth-child(1){
+  margin-right: 20px;
+}
+
+section#facts .container:nth-child(2) .person h5{
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #333;
+}
+
+section#facts .container:nth-child(2):hover p,
+section#facts .container:nth-child(2) .person h5{
+  color: white;
+}
+
+@media screen and (max-width: 550px){
+  section#facts .container > h3{
+    font-size: 2em;
+  }
+
+  section#facts .container .avis{
+    flex-direction: column;
+  }
+
+  section#facts .container .avis .bloc{
+    margin: 10px;
+  }
+}
