@@ -1,12 +1,45 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <!-- Meta tag Keywords -->
+      <title>Gravizen :: Consultation à distance par des pros</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gravizen :: Consultation à distance par des pros</title>
-  </head>
-  <body>
 
+    <!-- Custom-Files -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/0c87a70838.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style/style.css">
+  </head>
+
+  <body>
+    <header id="sidebar">
+      <div class="hamburger" onclick="myFunction()">
+        <div class="top"></div>
+        <div class="mid"></div>
+        <div class="bottom"></div>
+      </div>
+        <h1><a href="index.html">Gravizen<img src="images/logo.png" alt=" "></a></h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Acceuil</a></li>
+          <li><a href="#services">Nos soins</a></li>
+          <li><a href="#about">A propos</a></li>
+          <li><a href="#appointment">Prendre rendez-vous</a></li>
+          <li><a href="#application">Application</a></li>
+          <li><a href="#doctors">Nos spécialistes</a></li>
+          <li><a href="#news">Notre blog</a></li>
+          <li><a href="#contact">Contactez-nous </a></li>
+          <p><span class="fa fa-volume-control-phone"></span>+331 20 20 20 20</p>
+        </ul>
+      </nav>
+    </header>
+
+    <script>
+    function myFunction(){
+      document.getElementById('sidebar').classList.toggle("open-sidebar");
+    }
+    </script>
   </body>
 </html>
