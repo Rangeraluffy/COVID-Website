@@ -210,3 +210,53 @@ header#sidebar p span{
   padding: 0.5em 2em;
   color: white;
 }
+
+/* Informations */
+
+#infos .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 100px 20px;
+  flex-wrap: wrap;
+}
+
+#infos .container .bloc {
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 10px 0px 10px;
+  background: linear-gradient(45deg,#0a99d1, #2ec5b2);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#infos .container .bloc:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 65px 90px -55px #565656;
+}
+
+#infos .container .bloc span.fa {
+  font-size: 3em;
+}
+
+#infos .container .bloc h3 {
+  font-size: 1.6em;
+  margin: 10px 0px 10px 0px;
+}
+
+#infos .container .bloc p {
+  font-size: 1.1em;
+}
+
+#infos .container .bloc span.fa,
+#infos .container .bloc h3,
+#infos .container .bloc p {
+  color: white;
+}
