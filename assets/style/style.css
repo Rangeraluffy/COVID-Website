@@ -597,3 +597,125 @@ section#appointment .container .formulaire button.submit-btn{
     padding: 30px 10px;
   }
 }
+
+/* APPLICATION */
+
+section#application{
+  background-color: #f9f9fb;
+  padding: 50px 0px;
+}
+
+section#application .container{
+  background: linear-gradient(45deg, #0a99d1, #2ec5b2);
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 0px;
+  box-shadow: 0px 10px 50px -10px #8c8c8c;
+}
+
+section#application .container .left {
+  background-color: #f1efef;
+  border-radius: 15px;
+  transition: 0.1s;
+  box-shadow: 0px 0px 50px -10px white;
+  cursor: pointer;
+}
+
+section#application .container .left:hover{
+  transform: scale(1.05);
+}
+
+section#application .container .left:hover{
+  transform: scale(1.02) rotate(-1deg);
+}
+
+section#application .container .left img{
+  height: 450px;
+}
+
+section#application .container .right{
+  color: white;
+  margin-left: 50px;
+}
+
+section#application .container .right p{
+  font-size: 1.2em;
+  max-width: 700px;
+  margin: 10px 0;
+}
+
+section#application .container .right p:nth-child(3){
+  margin: 50px 0px;
+}
+
+section#application .container .right h3{
+  font-size: 4em;
+  max-width: 700px;
+  line-height: 1.2em;
+}
+
+section#application .container .right a{
+  background-color: white;
+  padding: 0.6em 2em;
+  border-radius: 8px;
+  color: #656565;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-right: 20px;
+  display: inline-block;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0% 70%, 0% 50%, 0% 30%);
+  transition: 0.2s;
+}
+
+section#application .container .right a:hover{
+  transform: scale(0.95);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0% 70%, 7% 50%, 0% 30%);
+  color: #656565;
+}
+
+@media screen and (max-width: 1300px){
+  section#application .container .left img{
+    height: 300px;
+  }
+  section#application .container .right h3{
+    font-size: 3.5em;
+  }
+}
+
+@media screen and (max-width: 991px){
+  section#application .container .right h3{
+    font-size: 2em;
+  }
+  section#application .container .right p{
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 800px){
+  section#application .container{
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+  section#application .container .left img{
+    height: 200px;
+  }
+  section#application .container .right{
+    color: white;
+    margin: 50px 0 0 0;
+    text-align: center;
+    margin-left: 0;
+  }
+  section#application .container right a{
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  section#application .container right a{
+    width: 165px;
+  }
+}
