@@ -1110,3 +1110,48 @@ section#facts .container:nth-child(2) .person h5{
     margin: 10px;
   }
 }
+
+/* FOOTER */
+
+footer {
+  background-color: #f9f9fb;
+  border-top: 4px solid #1fb3bf;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+footer h2 a,
+footer h3{
+  color: #2a2a2a;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+footer h2 img{
+  width: 40px;
+}
+
+footer ul li a,
+footer p a{
+  color: #292929;
+}
+
+@media screen and (max-width: 550px) {
+  footer{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer > div{
+    margin-bottom: 40px;
+  }
+}
+
+p.copyright{
+  background-color: #f9f9fb;
+  text-align: center;
+}
