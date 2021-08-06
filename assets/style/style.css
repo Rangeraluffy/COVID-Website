@@ -360,3 +360,111 @@ text-align: center;
   color: #3a3a3a;
   font-weight: 600;
 }
+
+/* A PROPOS */
+
+#about {
+  background-color: #eef0f4;
+  box-shadow: inset 0px 0px 15px #d9dade;
+}
+
+#about .container{
+  margin:0 auto ;
+  padding: 70px 15px;
+  max-width: 1600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+#about .container .left{
+  max-width: 700px;
+}
+
+#about .container h3{
+  font-size: 2.8em;
+  color: #3a3a3a;
+  margin-bottom: 25px;
+}
+
+#about .container p{
+  font-size: 1.3em;
+  color: #3a3a3a;
+}
+
+#about .container .right{
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#about .container .right .icon{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 20px;
+  cursor: pointer;
+  background: #e2e4e8;
+  border-radius: 100%;
+  box-shadow: inset 3.6px 3.6px 43px #D0C4D0, inset -3.6px -3.6px 43px #e2e4e8,
+    inset -9.91px -9.91px 15px #fafcff;
+  transition: 0.2s;
+}
+
+#about .container .right .icon:hover{
+  background: #eef0f4;
+  border-radius: 100%;
+  box-shadow: inset 3.6px 3.6px 43px #D0C4D0, inset -3.6px -3.6px 43px #e2e4e8,
+    inset -9.91px -9.91px 15px #fafcff;
+}
+
+#about .container .right .icon span{
+  font-size: 2em;
+  transition: 0.3s;
+  color: #a7a7a7;
+}
+
+#about .container .right .icon:hover span{
+  color: #1fb3bf;
+}
+
+#about .container .right .icon h4{
+  margin-top: 5px;
+  font-size: 1.2em;
+  transition: 0.3s;
+  transition-delay: 0.1s;
+}
+
+#about .container .right .icon:hover h4{
+  color: #00bfba;
+}
+
+@media screen and (max-width: 991px) {
+  #about .container{
+    flex-direction: column;
+  }
+
+  #about .container .left{
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #about .container .right .icon{
+    margin: 15px;
+  }
+
+  #about .container .left{
+    text-align: justify;
+  }
+  #about .container .left h3{
+    text-align: center;
+  }
+}
