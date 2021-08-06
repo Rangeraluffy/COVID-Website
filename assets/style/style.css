@@ -10,6 +10,35 @@ body {
   font-family: 'Kiwi Maru', serif;
 }
 
+/* MEDIA QUERY */
+
+@media screen and (max-width: 991px) {
+  #home .banner {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 1300px){
+  #home .banner h3{
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 1100px){
+  #home .banner img{
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 769px){
+  #home .banner img{
+    max-width: 250px;
+  }
+  #home .banner{
+    align-items: center;
+  }
+}
+
 /* BANNER */
 #home{
   position: relative;
