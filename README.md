@@ -1,6 +1,6 @@
 # COVID - WEBSITE - GRAVIZEN
 
-This is a personal project carried out in the evening on my free time for to improve my CSS skills. This project was developed by Alexandre Marolleau.
+This is a personal project carried out in the evening on my free time to improve my CSS skills. This project was developed by Alexandre Marolleau.
 
 ## Project overview
 
