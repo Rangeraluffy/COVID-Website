@@ -8,16 +8,16 @@ The HTML was already present in the code the principle being with the images pro
 
 ### 1. Header
 
-![header](navigation_bar.png "navigation_bar.png")
+![header](./images/header.png "header.png")
 
 ### 2. Navigation
 
-![navigation bar](./images/navigation.png "./images/navigation.png")
+![navigation bar](./images/navigation.png "navigation_bar.png")
 
 ### 3. Overview
 
-![over view](navigation_bar.png "navigation_bar.png")
+![over view](./images/overview.png "overview.png")
 
 ### 4. Doctor section
 
-![Specialist](navigation_bar.png "navigation_bar.png")
+![Specialist](./images/pro.png "Specialist.png")
