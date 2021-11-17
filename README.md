@@ -12,7 +12,7 @@ The HTML was already present in the code the principle being with the images pro
 
 ### 2. Navigation
 
-![navigation bar](./images/navigation.png "navigation_bar.png")
+![navigation bar](./images/navigation.png "./images/navigation.png")
 
 ### 3. Overview
 
